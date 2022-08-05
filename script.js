@@ -12,3 +12,7 @@ console.log("Fahrenheit result: ", fahrenheit);
 
 // This is taking the current fahrenheit and rounding it and displaying the result in the console log.
 console.log("Fahrenheit number rounded: ", Math.round(fahrenheit));
+
+let newFahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${newFahrenheit} degrees Fahrenheit.`)
